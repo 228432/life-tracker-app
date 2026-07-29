@@ -1,0 +1,47 @@
+{
+    "name": "生活工作台 - 减肥·心情·记账",
+    "short_name": "生活工作台",
+    "description": "个人生活管理工作台：记录减肥进度、追踪每日心情、管理攒钱与花费，一站式管理你的生活数据。",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#F0F0F5",
+    "theme_color": "#6C5CE7",
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "categories": ["lifestyle", "health", "finance", "productivity"],
+    "icons": [
+        {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "记录体重",
+            "short_name": "减肥",
+            "url": "./index.html#weight",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "记录心情",
+            "short_name": "心情",
+            "url": "./index.html#mood",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "记一笔账",
+            "short_name": "记账",
+            "url": "./index.html#money",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        }
+    ]
+}
